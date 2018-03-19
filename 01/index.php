@@ -1,5 +1,7 @@
-<?php
+ <?php
 
-require_once '/classes/FirstClass.php';
+require_once 'classes/FirstClass.php';
 
-new FirstClass();
+$o1 = new FirstClass(); // создали объект класса FirstClass
+
+var_dump($o1);
